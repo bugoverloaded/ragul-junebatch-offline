@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background:rgb(98, 159, 249);
+}
+
+.navbar {
+  background-color:rgb(98, 159, 249);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:blue;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color:blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.page {
+  padding: 2rem;
+  text-align: center;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 2rem auto;
+  background:rgb(19, 133, 179);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.booking-form input,
+.booking-form button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #bfbbd7;
+  border-radius: 4px;
+}
+
+.booking-form button {
+  background-color:rgb(90, 204, 249);
+  color: blue;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-form button:hover {
+  background-color:rgb(98, 159, 249);
+}
+
+
+.footer {
+  background-color:rgb(98, 159, 249);
+  color:blue;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
