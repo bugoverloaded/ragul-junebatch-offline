@@ -5,8 +5,8 @@ export default function Contact() {
   <div className="component">
     <Link to="/Contact"></Link>
     <h2>Contact Us</h2>
-    <p>Email: support@busbooking.com</p>
-    <p>Phone: +91 12345 67890</p>
+    <p>Email: ragul7928@gmail.com</p>
+    <p>Phone: +91 9360066547</p>
   </div>
   )
 };
